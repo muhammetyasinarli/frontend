@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS</title>
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <style>
+        /* 
+        selector{
+            css-özelliği : value
+        }
+        */
+        /*Tüm H1, p leri seçiyoruz*/
+        /* h1 {
+            color:red;
+            background-color: blue;
+        }
+        p{
+            color: red;
+            background-color: blue;
+        } */
+        /* h1,p{
+            color: red;
+            background-color: blue;
+        } */
+        /* #logo {
+            color: red;
+            background-color: blue;
+        } */
+        /* .info {
+            color: red;
+            background-color: blue;
+        } */
+        /* #logo, .lead {
+            color: red;
+            background-color: blue;
+        } */
+        /* #param1.info {
+            color: red;
+            background-color: blue;
+        } */
+        /* a {
+            text-decoration: none;
+        } */
+        /* ul li a {
+            text-decoration: none;
+        } */
+        /* .info span {
+            color: red;
+            background-color: blue;
+        } */
+        /* .info .primary {
+            color: red;
+            background-color: blue;
+        } */
+        /* * {
+            font-size: 30px;
+        } */
+        #logo {
+            color: red !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 style="background-color: red;">Başlık 1</h1> -->
+    <!-- <h1>Başlık 1</h1>
+    <h1>Başlık 2</h1> -->
+    <header>
+        <h1>Header 1</h1>
+        <h1 style="color: blue;" id="logo">Logo</h1>
+        <ul>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li  >
+        </ul>
+    </header>
+    <h1>Header 2</h1>
+    <p id="param1" class="lead info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, vero eligendi veniam quia molestiae laborum.
+    </p>
+    <p class="info">
+        Lorem ipsum <span class="primary">dolor</span> sit amet consectetur adipisicing elit. Nulla assumenda placeat esse debitis nesciunt sequi eum est quidem cum ipsum!
+    </p>
+    <p class="info">
+        Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Nulla assumenda placeat esse debitis nesciunt sequi eum est quidem cum ipsum!
+    </p>
+    <p>Test Paragraph</p>
+
+    <a href="#">Home</a>
+</body>
+</html>

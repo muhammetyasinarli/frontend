@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Form and Inputs</title>
+</head>
+<body>
+    <form >
+        <!-- HTML5 Inputs -->
+        <label for="name">Name</label><br/>
+        <input type="text" id="name" name="name" /> <br/>
+
+        <label for="email">Email</label><br/>
+        <input type="email" id="email" name="email" /> <br/>
+
+        <label for="date">BirthDate</label><br/>
+        <input type="date" id="date" name="date" /> <br/>
+
+        <label for="password">Password</label><br/>
+        <input type="password" id="password" name="password" /> <br/>
+
+        Gender <br/>
+        Male
+        <input type="radio" name="gender" value="male" />
+        Female
+        <input type="radio" name="gender" value="female" />
+        Other
+        <input type="radio" name="gender" value="other" /> <br/>
+
+        Hobbies <br/>
+        Technology
+        <input type="checkbox" name="tech" id="tech" />
+        Art
+        <input type="checkbox" name="art" id="art" />
+        <br/>
+
+        Select <br/>
+        <select name="degree" id="degree">
+            <option value="bachelor" selected>Lisans</option>
+            <option value="msc">Yüksek Lisans</option>
+            <option value="phd">Doktora</option>
+        </select> <br/>
+        
+        <textarea rows="10" placeholder="Your message"></textarea>
+
+
+        <br/>
+        <input type="submit" value="submit"/>
+        <input type="reset" value="reset" />
+        <!-- <button type="submit">Gönder</button> -->
+    </form>
+</body>
+</html>

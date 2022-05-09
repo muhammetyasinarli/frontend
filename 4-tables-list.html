@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width:50%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.5em;
+        }
+        th,td {
+            padding: 10px;
+        }
+        thead tr {
+            background-color: green;
+            color: white;
+        }
+        tbody tr {
+            text-align: center;
+        }
+        tbody tr :nth-child(even){
+            background: #f2f2f2;
+        }
+        tbody tr:hover{
+            background-color: #ddd;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ahmet</td>
+                <td>IT</td>
+                <td>50000</td>
+            </tr>
+            <tr>
+                <td>Ahmet</td>
+                <td>IT</td>
+                <td>50000</td>
+            </tr>
+            <tr>
+                <td>Ahmet</td>
+                <td>IT</td>
+                <td>50000</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!-- Unordered List -->
+<!-- <ul type="square">
+    <li>Test smp 1</li>
+    <li>Test smp 2</li>
+    <li>Test smp 3
+        <ul>
+            <li>aaa</li>
+            <li>aaavvv</li>
+        </ul>
+    </li>
+    <li>Test smp 4</li>
+</ul> -->
+    <!-- Ordered List -->
+<!-- <ol>
+    <li>Java</li>
+    <li>C# 
+    <ol type="a">
+        <li>C</li>
+        <li>C++</li>
+    </ol></li>
+    <li>Golang</li>
+</ol> -->
+</body>
+</html>

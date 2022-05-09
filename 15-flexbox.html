@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <!-- main size (x) : main start + main end -->
+    <!-- cross size (y): cross start + cross end -->
+    <!-- flex container + flex item -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            min-height: 600px;
+            background: black;
+            /* flex-direction: row; */
+            flex-direction: column;
+            /* justify-content: left; */
+            justify-content: center;
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+            /* justify-content: flex-start; */
+            /* align-items: stretch; */
+            align-items: center;
+            /* align-items: baseline; */
+            /* flex-wrap: wrap; */
+        }
+        .box{
+            text-align: center;
+            background-color: #f2f2f2;
+            width: 200px;
+            min-height: 200px;
+            margin: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Flex container -->
+    <div class="container">
+        <div class="box">
+            <h1>Article 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, unde.</p>
+        </div>
+        <div class="box">
+            <h1>Article 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, unde.</p>
+        </div>
+        <div class="box">
+            <h1>Article 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, unde.</p>
+        </div>
+    </div>
+</body>
+</html>
